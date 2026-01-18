@@ -1,0 +1,44 @@
+import React from 'react';
+import { ArrowRight, Download } from 'lucide-react';
+import { useLanguage } from '../context/LanguageContext';
+
+const Hero = () => {
+    const { t } = useLanguage();
+
+    return (
+        <section id="hero" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white to-gray-50 pt-16">
+            <div className="section-container flex flex-col items-center text-center">
+                <div className="animate-fade-in space-y-6 max-w-4xl">
+                    <h2 className="text-naranja font-medium tracking-wide text-lg uppercase">
+                        {t.hero.tagline}
+                    </h2>
+
+                    <h1 className="text-5xl md:text-7xl font-bold text-gris-oscuro tracking-tight">
+                        {t.hero.greeting} Francisco Negrete
+                        <span className="block text-3xl md:text-5xl text-gris-medio mt-4 font-normal">
+                            {t.hero.role}
+                        </span>
+                    </h1>
+
+                    <p className="max-w-2xl mx-auto text-xl text-gris-medio leading-relaxed">
+                        {t.hero.description}
+                    </p>
+
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+                        <a href="#projects" className="btn-primary">
+                            {t.hero.btn_projects}
+                            <ArrowRight className="ml-2 w-5 h-5" />
+                        </a>
+
+                        <a href="/cv.pdf" download className="btn-secondary">
+                            {t.hero.btn_cv}
+                            <Download className="ml-2 w-5 h-5" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default Hero;

@@ -1,0 +1,260 @@
+{
+    "es": {
+        "nav": {
+            "about": "Sobre Mí",
+            "experience": "Experiencia",
+            "education": "Educación",
+            "projects": "Proyectos",
+            "contact": "Contacto"
+        },
+        "hero": {
+            "greeting": "Hola, soy",
+            "tagline": "Make Data People Want",
+            "role": "Product Data Analyst & Analytics Engineer",
+            "description": "Analista de datos y negocios con experiencia en la industria de los seguros. Mi fuerte está en entender problemáticas técnicas y de negocios, para traducirlas en insights respaldados con datos.",
+            "btn_projects": "Ver Proyectos",
+            "btn_cv": "Descargar CV"
+        },
+        "about": {
+            "title": "Sobre Mí",
+            "p1": "Como Product Data Analyst & Analytics Engineer, me especializo en transformar datos complejos en estrategias de negocio claras y accionables. Mi enfoque combina habilidades técnicas sólidas con una comprensión profunda de las necesidades empresariales.",
+            "p2": "Actualmente enfocado en el sector de seguros, disfrutando el desafío de encontrar patrones y oportunidades en grandes volúmenes de información.",
+            "skills_title": "Habilidades Técnicas",
+            "skills": [
+                "Python",
+                "SQL",
+                "Power BI",
+                "Excel",
+                "Azure",
+                "Salesforce",
+                "Data Analytics",
+                "Data Engineering",
+                "Agile & PM"
+            ]
+        },
+        "experience": {
+            "title": "Experiencia Laboral",
+            "items": [
+                {
+                    "title": "Product Data Analyst & Analytics Engineer",
+                    "company": "Zurich Seguros",
+                    "period": "Ene 2024 - presente",
+                    "description": "Análisis de datos y digitalización aplicados a la industria de seguros. Necesidades técnicas y de negocio. KPI's y métricas. Digital Analytics."
+                },
+                {
+                    "title": "Analista de Datos",
+                    "company": "Soy Henry",
+                    "period": "Jun 2022 - Dic 2023",
+                    "description": "Modelado de Datos en MongoDB, BigQuery & Airtable/Excel. Data Project Manager: Agile & project tracking (Jira & Trello) del área de Data Science Learning."
+                },
+                {
+                    "title": "Instructor Data Science",
+                    "company": "Digital House",
+                    "period": "Abr 2022 - Dic 2022",
+                    "description": "Programación Python. Promedio de +9 satisfacción por cohorte dictada."
+                },
+                {
+                    "title": "Data Analyst",
+                    "company": "Don Atilio S.R.L.",
+                    "period": "Mar 2021 - Dic 2021",
+                    "description": "Gestión de base de datos. Creación y seguimiento de KPI's."
+                }
+            ]
+        },
+        "education": {
+            "title": "Educación",
+            "items": [
+                {
+                    "degree": "Licenciatura Administración de Sistemas",
+                    "institution": "Universidad de la Marina Mercante",
+                    "year": "2025"
+                },
+                {
+                    "degree": "Tecnicatura Superior en Seguridad Industrial",
+                    "institution": "UTN",
+                    "year": "2019-2021"
+                },
+                {
+                    "degree": "Diplomatura Análisis de Negocios",
+                    "institution": "UTN",
+                    "year": "Feb 2025"
+                }
+            ]
+        },
+        "projects": {
+            "title": "Proyectos Destacados",
+            "subtitle": "Algunos ejemplos de mi trabajo analizando datos y construyendo soluciones.",
+            "items": [
+                {
+                    "title": "Sales Dashboard Analysis",
+                    "description": "Panel interactivo que muestra indicadores clave de rendimiento y tendencias de ventas para un cliente minorista.",
+                    "tags": [
+                        "Power BI",
+                        "SQL",
+                        "DataViz"
+                    ]
+                },
+                {
+                    "title": "Customer Churn Prediction",
+                    "description": "Modelo de aprendizaje automático para identificar clientes en riesgo y sugerir estrategias de retención.",
+                    "tags": [
+                        "Python",
+                        "Scikit-learn",
+                        "Pandas"
+                    ]
+                },
+                {
+                    "title": "ETL Pipeline Automation",
+                    "description": "Pipeline de datos automatizado utilizando Azure Data Factory para consolidar fuentes de datos.",
+                    "tags": [
+                        "Azure",
+                        "Python",
+                        "Data Engineering"
+                    ]
+                }
+            ],
+            "btn_code": "Código",
+            "btn_demo": "Demo"
+        },
+        "contact": {
+            "title": "Trabajemos Juntos",
+            "description": "Estoy siempre abierto a discutir nuevos proyectos, ideas creativas u oportunidades para ser parte de tus visiones.",
+            "social_title": "Redes Sociales",
+            "email": "franjnegrete@gmail.com",
+            "phone": "+54-2966-706099"
+        },
+        "footer": {
+            "role": "Product Data Analyst & Analytics Engineer",
+            "rights": "Todos los derechos reservados."
+        }
+    },
+    "en": {
+        "nav": {
+            "about": "About",
+            "experience": "Experience",
+            "education": "Education",
+            "projects": "Projects",
+            "contact": "Contact"
+        },
+        "hero": {
+            "greeting": "Hi, I'm",
+            "tagline": "Make Data People Want",
+            "role": "Product Data Analyst & Analytics Engineer",
+            "description": "Business and Data Analyst with experience in the insurance industry. My strength lies in understanding technical and business problems to translate them into data-backed insights.",
+            "btn_projects": "View Projects",
+            "btn_cv": "Download CV"
+        },
+        "about": {
+            "title": "About Me",
+            "p1": "As a Product Data Analyst & Analytics Engineer, I specialize in transforming complex data into clear and actionable business strategies. My approach combines solid technical skills with a deep understanding of business needs.",
+            "p2": "Currently focused on the insurance sector, enjoying the challenge of finding patterns and opportunities in large volumes of information.",
+            "skills_title": "Technical Skills",
+            "skills": [
+                "Python",
+                "SQL",
+                "Power BI",
+                "Excel",
+                "Azure",
+                "Salesforce",
+                "Data Analytics",
+                "Data Engineering",
+                "Agile & PM"
+            ]
+        },
+        "experience": {
+            "title": "Work Experience",
+            "items": [
+                {
+                    "title": "Product Data Analyst & Analytics Engineer",
+                    "company": "Zurich Seguros",
+                    "period": "Jan 2024 - Present",
+                    "description": "Data analysis and digitalization applied to the insurance industry. Technical and business needs. KPIs and metrics. Digital Analytics."
+                },
+                {
+                    "title": "Data Analyst",
+                    "company": "Soy Henry",
+                    "period": "Jun 2022 - Dec 2023",
+                    "description": "Data Modeling in MongoDB, BigQuery & Airtable/Excel. Data Project Manager: Agile & project tracking (Jira & Trello) for the Data Science Learning area."
+                },
+                {
+                    "title": "Data Science Instructor",
+                    "company": "Digital House",
+                    "period": "Apr 2022 - Dec 2022",
+                    "description": "Python Programming. Average satisfaction of +9 per cohort taught."
+                },
+                {
+                    "title": "Data Analyst",
+                    "company": "Don Atilio S.R.L.",
+                    "period": "Mar 2021 - Dec 2021",
+                    "description": "Database management. Creation and tracking of KPIs."
+                }
+            ]
+        },
+        "education": {
+            "title": "Education",
+            "items": [
+                {
+                    "degree": "Bachelor in Systems Administration",
+                    "institution": "Universidad de la Marina Mercante",
+                    "year": "2025"
+                },
+                {
+                    "degree": "Higher Technician in Industrial Safety",
+                    "institution": "UTN",
+                    "year": "2019-2021"
+                },
+                {
+                    "degree": "Diploma in Business Analysis",
+                    "institution": "UTN",
+                    "year": "Feb 2025"
+                }
+            ]
+        },
+        "projects": {
+            "title": "Featured Projects",
+            "subtitle": "Some examples of my work analyzing data and building solutions.",
+            "items": [
+                {
+                    "title": "Sales Dashboard Analysis",
+                    "description": "Interactive dashboard displaying key performance indicators and sales trends for a retail client.",
+                    "tags": [
+                        "Power BI",
+                        "SQL",
+                        "DataViz"
+                    ]
+                },
+                {
+                    "title": "Customer Churn Prediction",
+                    "description": "Machine learning model to identify at-risk customers and suggest retention strategies.",
+                    "tags": [
+                        "Python",
+                        "Scikit-learn",
+                        "Pandas"
+                    ]
+                },
+                {
+                    "title": "ETL Pipeline Automation",
+                    "description": "Automated data pipeline using Azure Data Factory to consolidate data sources.",
+                    "tags": [
+                        "Azure",
+                        "Python",
+                        "Data Engineering"
+                    ]
+                }
+            ],
+            "btn_code": "Code",
+            "btn_demo": "Demo"
+        },
+        "contact": {
+            "title": "Let's Work Together",
+            "description": "I am always open to discuss new projects, creative ideas, or opportunities to be part of your visions.",
+            "social_title": "Social Media",
+            "email": "franjnegrete@gmail.com",
+            "phone": "+54-2966-706099"
+        },
+        "footer": {
+            "role": "Product Data Analyst & Analytics Engineer",
+            "rights": "All rights reserved."
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "personal": {
+        "name": "Francisco Negrete",
+        "title": "Product Data Analyst & Analytics Engineer",
+        "tagline": "Make Data People Want",
+        "description": "Analista de datos y negocios con experiencia en la industria de los seguros. Mi fuerte está en entender problemáticas técnicas y de negocios, para traducirlas en insights respaldados con datos.",
+        "email": "franjnegrete@gmail.com",
+        "phone": "+54-2966-706099",
+        "linkedin": "https://linkedin.com/in/fnegrete",
+        "github": "https://github.com/FranciscoNegrete3"
+    },
+    "skills": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "Excel",
+        "Azure",
+        "Salesforce",
+        "Data Analytics",
+        "Data Engineering",
+        "Agile & PM"
+    ],
+    "experience": [
+        {
+            "title": "Product Data Analyst & Analytics Engineer",
+            "company": "Zurich Seguros",
+            "period": "Ene 2024 - presente",
+            "description": "Análisis de datos y digitalización aplicados a la industria de seguros. Necesidades técnicas y de negocio. KPI's y métricas. Digital Analytics."
+        },
+        {
+            "title": "Analista de Datos",
+            "company": "Soy Henry",
+            "period": "Jun 2022 - Dic 2023",
+            "description": "Modelado de Datos en MongoDB, BigQuery & Airtable/Excel. Data Project Manager: Agile & project tracking (Jira & Trello) del área de Data Science Learning."
+        },
+        {
+            "title": "Instructor Data Science",
+            "company": "Digital House",
+            "period": "Abr 2022 - Dic 2022",
+            "description": "Programación Python. Promedio de +9 satisfacción por cohorte dictada."
+        },
+        {
+            "title": "Data Analyst",
+            "company": "Don Atilio S.R.L.",
+            "period": "Mar 2021 - Dic 2021",
+            "description": "Gestión de base de datos. Creación y seguimiento de KPI's."
+        }
+    ],
+    "education": [
+        {
+            "degree": "Licenciatura Administración de Sistemas",
+            "institution": "Universidad de la Marina Mercante",
+            "year": "2025"
+        },
+        {
+            "degree": "Tecnicatura Superior en Seguridad Industrial",
+            "institution": "UTN",
+            "year": "2019-2021"
+        },
+        {
+            "degree": "Diplomatura Análisis de Negocios",
+            "institution": "UTN",
+            "year": "Feb 2025"
+        }
+    ]
+}

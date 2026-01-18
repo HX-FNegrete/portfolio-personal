@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24;
+  }
+  .btn-primary {
+    @apply inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-blanco bg-naranja hover:bg-opacity-90 transition-all shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-naranja;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center px-6 py-3 border border-gris-oscuro text-base font-medium rounded-md text-gris-oscuro bg-transparent hover:bg-gris-oscuro hover:text-blanco transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gris-oscuro;
+  }
+}
