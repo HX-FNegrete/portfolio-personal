@@ -30,7 +30,13 @@ const Hero = () => {
                             <ArrowRight className="ml-2 w-5 h-5" />
                         </a>
 
-                        <a href="/CV_Francisco_Negrete.pdf" download className="btn-secondary">
+                        <a 
+                            href="./cv.pdf" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            download="cv.pdf"
+                            className="btn-secondary"
+                        >
                             {t.hero.btn_cv}
                             <Download className="ml-2 w-5 h-5" />
                         </a>
