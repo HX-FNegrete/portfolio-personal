@@ -11,7 +11,7 @@ const About = () => {
                 <div className="flex flex-col md:flex-row gap-12 items-center">
                     <div className="w-full md:w-1/2">
                         <div className="relative">
-                            <div className="absolute -top-4 -left-4 w-24 h-24 bg-naranja/10 rounded-full z-0"></div>
+                            <div className="absolute -top-4 -left-4 w-20 h-20 bg-naranja/10 rounded-full z-0"></div>
                             <h2 className="text-3xl md:text-4xl font-bold text-gris-oscuro relative z-10 mb-6">
                                 {t.about.title}
                             </h2>
