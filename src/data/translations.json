@@ -10,7 +10,7 @@
         "hero": {
             "greeting": "Hola, soy",
             "tagline": "Make Data People Want",
-            "role": "Product Data Analyst & Analytics Engineer",
+            "role": "Product Analytic Engineer",
             "description": "Analista de datos y negocios con experiencia en la industria de los seguros. Mi fuerte está en entender problemáticas técnicas y de negocios, para traducirlas en insights respaldados con datos.",
             "btn_projects": "Ver Proyectos",
             "btn_cv": "Descargar CV"
@@ -139,7 +139,7 @@
         "hero": {
             "greeting": "Hi, I'm",
             "tagline": "Make Data People Want",
-            "role": "Product Data Analyst & Analytics Engineer",
+            "role": "Product Analytic Engineer",
             "description": "Business and Data Analyst with experience in the insurance industry. My strength lies in understanding technical and business problems to translate them into data-backed insights.",
             "btn_projects": "View Projects",
             "btn_cv": "Download CV"
