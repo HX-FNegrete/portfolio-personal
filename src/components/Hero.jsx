@@ -6,7 +6,7 @@ const Hero = () => {
     const { t } = useLanguage();
 
     return (
-        <section id="hero" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white to-gray-50 pt-16">
+        <section id="hero" className="min-h-screen flex items-start justify-center bg-gradient-to-br from-white to-gray-50 pt-24 md:pt-32">
             <div className="section-container flex flex-col items-center text-center">
                 <div className="animate-fade-in space-y-6 max-w-4xl">
                     <h2 className="text-naranja font-medium tracking-wide text-lg uppercase">
