@@ -1,9 +1,19 @@
 import React from 'react';
 import { ArrowRight, Download } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import ReactGA from 'react-ga4'; // Importamos la librería
 
 const Hero = () => {
     const { t } = useLanguage();
+
+    // Función para trackear la descarga
+    const handleDownloadClick = () => {
+        ReactGA.event({
+            category: 'Portfolio_Interactions',
+            action: 'Descarga_CV',
+            label: 'Boton_Hero',
+        });
+    };
 
     return (
         <section id="hero" className="min-h-screen flex items-start justify-center bg-gradient-to-br from-white to-gray-50 pt-24 md:pt-32">
@@ -36,6 +46,7 @@ const Hero = () => {
                             rel="noopener noreferrer"
                             download="cv.pdf"
                             className="btn-secondary"
+                            onClick={handleDownloadClick} // Agregamos el disparador aquí
                         >
                             {t.hero.btn_cv}
                             <Download className="ml-2 w-5 h-5" />
