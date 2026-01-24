@@ -1,17 +1,17 @@
 import React from 'react';
 import { ArrowRight, Download } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
-import ReactGA from 'react-ga4'; // Importamos la librería
+import ReactGA from 'react-ga4'; // 1. Importar la librería
 
 const Hero = () => {
     const { t } = useLanguage();
 
-    // Función para trackear la descarga
+    // 2. Función para registrar el evento de descarga
     const handleDownloadClick = () => {
         ReactGA.event({
-            category: 'Portfolio_Interactions',
+            category: 'Acciones_Portfolio',
             action: 'Descarga_CV',
-            label: 'Boton_Hero',
+            label: 'Francisco_Negrete_CV',
         });
     };
 
@@ -40,13 +40,14 @@ const Hero = () => {
                             <ArrowRight className="ml-2 w-5 h-5" />
                         </a>
 
+                        {/* 3. Agregamos el onClick aquí */}
                         <a 
                             href="./cv.pdf" 
                             target="_blank"
                             rel="noopener noreferrer"
                             download="cv.pdf"
                             className="btn-secondary"
-                            onClick={handleDownloadClick} // Agregamos el disparador aquí
+                            onClick={handleDownloadClick}
                         >
                             {t.hero.btn_cv}
                             <Download className="ml-2 w-5 h-5" />
